@@ -104,7 +104,7 @@ class AngleFinder {
         if (this.poin2 != null) {
 
             let height = Math.tan(window.game.values.angle
-                * Math.PI / 180) * parseInt(document.querySelector("#horizontalDistance").value) + parseInt(document.querySelector("#heightThreshold").value);
+                * Math.PI / 180) * parseInt(document.querySelector("#horizontalDistance").value) + 2;
             this.ctx.fillStyle = "blue";
             this.ctx.fillRect(this.poin2.x, this.poin2.y, 20, 20);
 
