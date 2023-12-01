@@ -17,9 +17,11 @@
         video {
             display: none;
             background-color: rgb(233, 212, 92);
+            border: 2px solid black;
         }
         .mb-3{
             background-color: rgb(233, 212, 92);
+            border: 2px solid black;
         }
 
 
@@ -29,6 +31,9 @@
             display:flex;
             gap: 20px;
             background-color: rgb(233, 212, 92);
+            border: 10px solid black;
+            align-items: center;
+            justify-content: center;
         }
 
         .body{
@@ -39,31 +44,68 @@
         .h1{
             margin-left: 100px;
             font-weight: 900;
-            font-size: 2.5rem;
+            font-size: 3rem;
+            justify-content: center;
+            align-items: center;
+            margin-left: 0px;
+            margin-top: 100px;
+            margin-right:1000px;
+            width: 900px;
+            align-items: center; 
+            align-self: center; 
+            
+     
+     }
+
+
+        .label{
+            width: 100px;
+            height: 50px;
+            font-size: 20px;
+            font-weight: 900;
+            border-radius: 10px;
+            border: 2px solid black;
+            background-color: rgb(233, 212, 92);
+            margin-right: 200px;
+            border: 4px solid black;
+            
+
+        }
+
+        .lab{
+            font-size: 1.5rem;
+            font-weight: 700;
+            
         }
     </style>
 </head>
 <body class="body">
     
 
-    <video src=""></video>
+    <video src="">
+        
+    </video>
 
-    <canvas></canvas>
+    <canvas>
+        
+    </canvas>
     <div class="controlContainer">
+        <label class="lab" for="exampleFormControlInput1" class="form-label">Horizontal Distance</label>
+        <input class="label" type="number" class="form-control" id="horizontalDistance" value="0" placeholder="0">
+        
 
         <div class="mb-3" >
             
             
           </div>
           <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Horizontal Distance</label>
-            <input type="number" class="form-control" id="horizontalDistance" value="0" placeholder="0">
+            
           </div>
           <div>
 
           <h1 class="h1">Trikona AI</h1>
         
-          <h2 class="h1">By Deepanshu Jha</h2>
+          <h2 class="h2">By Deepanshu Jha</h2>
 
           </div>
     </div>
